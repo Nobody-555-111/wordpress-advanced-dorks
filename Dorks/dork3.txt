@@ -571,4 +571,245 @@ site:target inurl:wp-content/plugins/smart-slider-3 "ss3" "db" "slides" ext:sql
 site:target inurl:wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Database/Database.php "ss3_key"
 site:target inurl:wp-content/plugins/depicter "depicter" "db" "sliders" ext:sql
 site:target inurl:wp-content/plugins/depicter/app/src/Data/Sliders.php "depicter_key"
+site:target inurl:wp-content/plugins/woocommerce-pdf-invoices-packing-slips "wpo_wcpdf" "password" ext:php
+site:target inurl:wp-content/plugins/woocommerce-pdf-invoices-packing-slips/includes/class-wcpdf-install.php "db_key"
+site:target inurl:wp-content/plugins/woocommerce-gateway-amazon-payments "amazon_payments" "access_key" "secret_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-gateway-amazon-payments/includes/class-wc-amazon-payments.php "merchant_id"
+site:target inurl:wp-content/plugins/woocommerce-extra-checkout-fields "wcecf" "db" "fields" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-extra-checkout-fields/includes/class-wc-extra-checkout-fields-db.php "wcecf_key"
+site:target inurl:wp-content/plugins/woocommerce-shipping-tracking "wcst" "api_key" "tracking" ext:log
+site:target inurl:wp-content/plugins/woocommerce-smart-coupons/includes/class-wc-sc-db.php "coupon_generation"
+site:target inurl:wp-content/plugins/woocommerce-currency-switcher/admin/classes/class-database.php "woocs_key"
+site:target inurl:wp-content/plugins/woocommerce-currency-switcher/classes/class-woocs-cron.php "secret"
+site:target inurl:wp-content/plugins/woocommerce-dropshipping/includes/class-wc-dropshipping-db.php "ds_password"
+site:target inurl:wp-content/plugins/woocommerce-pre-orders/includes/class-wc-pre-orders-db.php "pre_order_data"
+site:target inurl:wp-content/plugins/woocommerce-backorder "wc_backorder" "db" "log" ext:log
+site:target inurl:wp-content/plugins/woocommerce-order-export "wc_order_export" "mysql" "password" ext:php
+site:target inurl:wp-content/plugins/woocommerce-order-export/includes/class-wc-order-export-db.php "export_key"
+site:target inurl:wp-content/plugins/woocommerce-catalog-visibility-options "wc_cvo" "db" "settings" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-quick-view "wc_qv" "db" "cache" ext:log
+site:target inurl:wp-content/plugins/woocommerce-ajax-search "wc_as" "db" "queries" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-photo-reviews "wc_pr" "db" "reviews" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-points-and-rewards "wc_par" "db" "points" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-role-based-price "wc_rbp" "db" "prices" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-vendors "wc_pv" "db" "commissions" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-vendors/includes/class-wc-product-vendors-db.php "pv_key"
+site:target inurl:wp-content/plugins/woocommerce-multilingual/inc/class-woocommerce-multilingual.php "wpml_db"
+site:target inurl:wp-content/plugins/woocommerce-multilingual/inc/class-wcml-db.php "multilingual_data"
+site:target inurl:wp-content/plugins/woocommerce-discounts "wc_discounts" "db" "rules" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-dynamic-pricing-discounts "wcdpd" "db" "prices" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-prices-by-user-role "wc_pbur" "db" "role_prices" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-checkout-manager/includes/class-woocommerce-checkout-manager-db.php "fields_data"
+site:target inurl:wp-content/plugins/woocommerce-order-status-manager "wc_osm" "db" "statuses" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-shipment-tracking "wc_st" "db" "tracking_codes" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-shipstation "wc_shipstation" "api_key" "auth" ext:php
+site:target inurl:wp-content/plugins/woocommerce-stock-manager "wc_sm" "db" "stock_logs" ext:log
+site:target inurl:wp-content/plugins/woocommerce-advanced-product-labels "wc_apl" "db" "labels" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-badge "wc_pb" "db" "badges" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-thank-you-page "wc_typ" "db" "customizations" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-payment-fees "wc_pf" "db" "fees" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-addon "wc_pa" "db" "addons" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-filters "wc_pfilters" "db" "filters" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-quick-buy "wc_qb" "db" "buttons" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-email-customizer-pro "wc_ecp" "smtp" "password" ext:php
+site:target inurl:wp-content/plugins/woocommerce-order-barcodes "wc_ob" "db" "barcodes" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-print-invoice-packing-list "wc_pipl" "db" "templates" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-pdf-product-vouchers "wc_pdfv" "db" "vouchers" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-gift-wrapper "wc_gw" "db" "gifts" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-bundles/includes/class-wc-product-bundles-db.php "bundle_meta"
+site:target inurl:wp-content/plugins/woocommerce-mix-and-match-products/includes/class-wc-mnm-db.php "mix_match"
+site:target inurl:wp-content/plugins/woocommerce-composite-products/includes/class-wc-cp-db.php "composite_data"
+site:target inurl:wp-content/plugins/woocommerce-chained-products "wc_cp" "db" "chained_items" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-subscription-downloads "wc_sd" "db" "downloads" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-memberships/includes/class-wc-memberships-db.php "membership_plans"
+site:target inurl:wp-content/plugins/woocommerce-address-verification "wc_av" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-geolocation-based-products "wc_gbp" "db" "geo_rules" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-tax-rate "wc_tr" "db" "tax_rates" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-google-shopping-feed "wc_gsf" "merchant_id" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-froogle "wc_froogle" "google" "ftp_pass" ext:php
+site:target inurl:wp-content/plugins/woocommerce-bing-shopping-feed "wc_bsf" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-pinterest "wc_pinterest" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-ebay-integration "wc_ebay" "auth_token" ext:php
+site:target inurl:wp-content/plugins/woocommerce-amazon-ebay-integration "amazon_ebay" "secret" ext:php
+site:target inurl:wp-content/plugins/woocommerce-aliexpress-dropshipping "waad" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-etsy-integration "wc_etsy" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-wishlist-pro "wc_wishlist" "db" "lists" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-compare-products-pro "wc_compare" "db" "comparisons" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-recently-viewed-products "wc_rvp" "db" "views" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-product-slider "wc_ps" "db" "sliders" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-category-banner "wc_cb" "db" "banners" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-ajax-filters-pro "wc_afp" "db" "filters" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-search-by-sku "wc_sku" "db" "search_log" ext:log
+site:target inurl:wp-content/plugins/woocommerce-product-search "wc_ps" "db" "index_data" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-customer-history "wc_ch" "db" "history" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-admin-custom-order-fields "wc_acof" "db" "fields" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-checkout-field-editor-pro "wc_cfe" "db" "fields" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-preview-emails "wc_pe" "db" "email_data" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-pdf-catalog "wc_pdfc" "db" "catalogs" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-store-toolkit "wc_st" "db" "debug_log" ext:log
+site:target inurl:wp-content/plugins/woocommerce-database-backup "wc_db_backup" "mysql" "password" ext:php
+site:target inurl:wp-content/plugins/woocommerce-scheduled-orders "wc_so" "db" "schedules" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-automatic-order-completion "wc_aoc" "db" "completed" ext:log
+site:target inurl:wp-content/plugins/woocommerce-product-import-export-suite "wc_pies" "db" "export_logs" ext:log
+site:target inurl:wp-content/plugins/woocommerce-product-import-suite "wc_pis" "db" "import_logs" ext:log
+site:target inurl:wp-content/plugins/woocommerce-quick-edit "wc_qe" "db" "bulk_actions" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-phone-orders "wc_po" "db" "orders" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-rest-api "wc_rest" "api_key" "consumer_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-json-api "wc_json" "api_secret" ext:php
+site:target inurl:wp-content/plugins/woocommerce-webhook-logs "wc_whl" "db" "webhook_data" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-webhooks "wc_wh" "db" "delivery_logs" ext:log
+site:target inurl:wp-content/plugins/woocommerce-webhook-listener "wc_whl" "secret" ext:php
+site:target inurl:wp-content/plugins/woocommerce-retailrocket "wc_rr" "api_key" ext:php
+site:target inurl:wp-content/plugins/woocommerce-nosto "wc_nosto" "account_id" "api_token" ext:php
+site:target inurl:wp-content/plugins/woocommerce-recommendations "wc_rec" "db" "rec_engine" ext:sql
+site:target inurl:wp-content/plugins/woocommerce-personalized-recommendations "wc_pr" "db" "user_data" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-ajax-search "yith_wcas" "db" "search_log" ext:log
+site:target inurl:wp-content/plugins/yith-woocommerce-wishlist "yith_wcwl" "db" "wishlists" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-compare "yith_wcc" "db" "comparisons" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-quick-view "yith_wcqv" "db" "views" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-badges-management "yith_wcbm" "db" "badges" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-catalog-mode "yith_wccm" "db" "settings" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-request-a-quote "yith_wcra" "db" "quotes" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-gift-cards "yith_wcgc" "db" "cards" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-points-and-rewards "yith_wcpar" "db" "points" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-membership "yith_wcm" "db" "plans" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-subscription "yith_wcs" "db" "subscriptions" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-dynamic-pricing-and-discounts "yith_wc_dpd" "db" "rules" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-role-based-prices "yith_wc_rbp" "db" "prices" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-advanced-reviews "yith_wcar" "db" "reviews" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-product-slider-carousel "yith_wcpsc" "db" "sliders" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-tab-manager "yith_wctm" "db" "tabs" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-email-templates "yith_wcet" "db" "templates" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-checkout-manager "yith_wccm" "db" "fields" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-customize-myaccount-page "yith_wccmp" "db" "customizations" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-pdf-invoice "yith_wcpi" "db" "invoices" ext:sql
+site:target inurl:wp-content/plugins/yith-woocommerce-shipstation "yith_wcss" "api_key" ext:php
+site:target inurl:wp-content/plugins/yith-woocommerce-google-product-feed "yith_wcgpf" "merchant_id" ext:php
+site:target inurl:wp-content/plugins/yith-woocommerce-pinterest "yith_wcp" "api_key" ext:php
+site:target inurl:wp-content/plugins/yith-woocommerce-theme-optimizer "yith_wcto" "db" "optimizations" ext:sql
+site:target inurl:wp-content/plugins/the-events-calendar/src/Tribe/Aggregator/API/Key.php "tribe_api_key"
+site:target inurl:wp-content/plugins/the-events-calendar/common/src/Tribe/Database.php "tribe_db_password"
+site:target inurl:wp-content/plugins/the-events-calendar/vendor/autoload.php "tribe_secret"
+site:target inurl:wp-content/plugins/event-tickets-plus "ticket_plus" "db" "attendees" ext:sql
+site:target inurl:wp-content/plugins/event-tickets-plus/src/Tribe/Attendee_Registration/Page.php "ticket_reg_key"
+site:target inurl:wp-content/plugins/events-manager "em_db" "password" ext:php
+site:target inurl:wp-content/plugins/events-manager/classes/em-database.php "em_key"
+site:target inurl:wp-content/plugins/events-manager/includes/em-install.php "em_db_version"
+site:target inurl:wp-content/plugins/calendarize-it "cal_db" "events" ext:sql
+site:target inurl:wp-content/plugins/calendarize-it/classes/class-database.php "cal_key"
+site:target inurl:wp-content/plugins/modern-events-calendar "mec_db" "calendars" ext:sql
+site:target inurl:wp-content/plugins/modern-events-calendar/includes/class-db.php "mec_key"
+site:target inurl:wp-content/plugins/modern-events-calendar/app/features/mec-api.php "mec_api_secret"
+site:target inurl:wp-content/plugins/sportspress "sp_db" "teams" ext:sql
+site:target inurl:wp-content/plugins/sportspress/includes/class-sp-database.php "sp_key"
+site:target inurl:wp-content/plugins/league-table "lt_db" "scores" ext:sql
+site:target inurl:wp-content/plugins/league-table/admin/class-database.php "lt_key"
+site:target inurl:wp-content/plugins/timetable "tt_db" "schedules" ext:sql
+site:target inurl:wp-content/plugins/timetable/classes/class-database.php "tt_key"
+site:target inurl:wp-content/plugins/my-calendar "mc_db" "events" ext:sql
+site:target inurl:wp-content/plugins/my-calendar/classes/class-database.php "mc_key"
+site:target inurl:wp-content/plugins/all-in-one-event-calendar "ai1ec_db" "calendars" ext:sql
+site:target inurl:wp-content/plugins/all-in-one-event-calendar/lib/database/ai1ec-database.php "ai1ec_key"
+site:target inurl:wp-content/plugins/wp-event-manager "wpem_db" "events" ext:sql
+site:target inurl:wp-content/plugins/wp-event-manager/includes/class-wp-event-manager-db.php "wpem_key"
+site:target inurl:wp-content/plugins/event-organiser "eo_db" "events" ext:sql
+site:target inurl:wp-content/plugins/event-organiser/includes/class-eo-db.php "eo_key"
+site:target inurl:wp-content/plugins/tribe-community-events "tce_db" "events" ext:sql
+site:target inurl:wp-content/plugins/w3-total-cache/Cache_File_Generic.php "w3tc_cache_key"
+site:target inurl:wp-content/plugins/w3-total-cache/Util_Debug.php "w3tc_debug_log"
+site:target inurl:wp-content/plugins/litespeed-cache/src/debug2.cls.php "litespeed_debug_key"
+site:target inurl:wp-content/plugins/litespeed-cache/src/data.cls.php "litespeed_data_pass"
+site:target inurl:wp-content/plugins/wp-rocket/inc/classes/class-rocket-debug-logger.php "rocket_log"
+site:target inurl:wp-content/plugins/wp-rocket/inc/Engine/Cache/WPCache.php "rocket_cache_key"
+site:target inurl:wp-content/plugins/autoptimize/classes/autoptimizeCache.php "autoptimize_cache_secret"
+site:target inurl:wp-content/plugins/autoptimize/autoptimize.php "ao_cache_key"
+site:target inurl:wp-content/plugins/hummingbird-performance/core/class-debug.php "hummingbird_log"
+site:target inurl:wp-content/plugins/hummingbird-performance/core/class-config.php "hb_secret"
+site:target inurl:wp-content/plugins/sg-cachepress/core/Install_Service/Install_5_0_5.php "sg_cache_key"
+site:target inurl:wp-content/plugins/sg-cachepress/core/Supercacher/Supercacher.php "sg_supercacher_key"
+site:target inurl:wp-content/plugins/cache-master "cm_db" "cache_keys" ext:sql
+site:target inurl:wp-content/plugins/cache-master/includes/class-cm-database.php "cm_key"
+site:target inurl:wp-content/plugins/cache-warmer "cw_db" "warmup_logs" ext:log
+site:target inurl:wp-content/plugins/cache-warmer/includes/class-cw-db.php "cw_key"
+site:target inurl:wp-content/plugins/wp-fastest-cache "wpfc_db" "cache_log" ext:log
+site:target inurl:wp-content/plugins/wp-fastest-cache/inc/class-database.php "wpfc_key"
+site:target inurl:wp-content/plugins/simple-cache "sc_db" "cache_keys" ext:sql
+site:target inurl:wp-content/plugins/borlabs-cache "borlabs" "api_key" ext:php
+site:target inurl:wp-content/plugins/borlabs-cache/classes/Cache.php "borlabs_secret"
+site:target inurl:wp-content/plugins/breeze/inc/class-breeze-db-cache.php "breeze_db_key"
+site:target inurl:wp-content/plugins/breeze/inc/minification/class-breeze-minify-cache.php "breeze_minify_key"
+site:target inurl:wp-content/plugins/flying-press "fly_press" "cache_key" ext:php
+site:target inurl:wp-content/plugins/flying-press/classes/class-database.php "fp_key"
+site:target inurl:wp-content/plugins/perfmatters "pm_db" "cache_log" ext:log
+site:target inurl:wp-content/plugins/perfmatters/inc/class-database.php "pm_key"
+site:target inurl:wp-content/plugins/wp-optimize/includes/class-wpo-database-cache.php "wpo_cache_key"
+site:target inurl:wp-content/plugins/wp-optimize/includes/class-wpo-database-tools.php "wpo_db_pass"
+site:target inurl:wp-content/plugins/redis-cache/includes/class-redis-cache.php "redis_cache_secret"
+site:target inurl:wp-content/plugins/redis-cache/redis-cache.php "redis_key"
+site:target inurl:wp-content/plugins/memcached/object-cache.php "memcached_key"
+site:target inurl:wp-content/plugins/memcached-redis "mrc_db" "cache_keys" ext:sql
+site:target inurl:wp-content/plugins/tiger-cache "tiger_cache" "api_key" ext:php
+site:target inurl:wp-content/plugins/zend-cache "zend_cache" "password" ext:php
+site:target inurl:wp-content/plugins/nginx-helper "nginx_helper" "cache_key" ext:php
+site:target inurl:wp-content/plugins/nginx-helper/includes/class-nginx-helper-db.php "nginx_key"
+site:target inurl:wp-content/plugins/varnish-http-purge "varnish" "purge_key" ext:php
+site:target inurl:wp-content/plugins/varnish-http-purge/inc/class-varnish-purge.php "varnish_secret"
+site:target inurl:wp-content/plugins/cloudflare-flexible-ssl "cloudflare_ssl" "api_key" ext:php
+site:target inurl:wp-content/plugins/cloudflare-flexible-ssl/cloudflare.php "cf_key"
+site:target inurl:wp-content/plugins/cdn-enabler "cdn_enabler" "api_key" ext:php
+site:target inurl:wp-content/plugins/cdn-enabler/inc/class-cdn-enabler-core.php "cdn_secret"
+site:target inurl:wp-content/plugins/shortpixel-image-optimiser/class/class-shortpixel-db.php "sp_db_key"
+site:target inurl:wp-content/plugins/shortpixel-image-optimiser/class/class-shortpixel-api.php "sp_api_secret"
+site:target inurl:wp-content/plugins/ewww-image-optimizer/background.php "ewww_db_password"
+site:target inurl:wp-content/plugins/ewww-image-optimizer/ewww-image-optimizer.php "ewww_key"
+site:target inurl:wp-content/plugins/wp-smushit/core/class-smush-db.php "smush_db_key"
+site:target inurl:wp-content/plugins/wp-smushit/app/class-ajax.php "smush_api_secret"
+site:target inurl:wp-content/plugins/imagify/inc/classes/class-imagify-db.php "imagify_db_password"
+site:target inurl:wp-content/plugins/imagify/inc/classes/class-imagify-api.php "imagify_key"
+site:target inurl:wp-content/plugins/optimole "optimole" "api_key" ext:php
+site:target inurl:wp-content/plugins/optimole/inc/class-optimole-db.php "optimole_key"
+site:target inurl:wp-content/plugins/compression "compression" "api_key" ext:php
+site:target inurl:wp-content/plugins/compression/inc/class-compression-db.php "compression_key"
+site:target inurl:wp-content/plugins/re-smush-it "resmush" "api_key" ext:php
+site:target inurl:wp-content/plugins/re-smush-it/classes/class-resmush-db.php "resmush_key"
+site:target inurl:wp-content/plugins/kraken-image-optimizer "kraken" "api_key" ext:php
+site:target inurl:wp-content/plugins/kraken-image-optimizer/kraken.php "kraken_secret"
+site:target inurl:wp-content/plugins/tiny-compress-images "tiny" "api_key" ext:php
+site:target inurl:wp-content/plugins/tiny-compress-images/tiny-compress-images.php "tiny_key"
+site:target inurl:wp-content/plugins/backup-wd "backup_wd" "db_password" ext:php
+site:target inurl:wp-content/plugins/backup-wd/backup_wd.php "bwd_key"
+site:target inurl:wp-content/plugins/backup-backup "backup_backup" "mysql_pass" ext:php
+site:target inurl:wp-content/plugins/backup-backup/includes/class-bb-database.php "bb_key"
+site:target inurl:wp-content/plugins/backuply "backuply" "db_password" ext:php
+site:target inurl:wp-content/plugins/backuply/includes/class-backuply-db.php "backuply_key"
+site:target inurl:wp-content/plugins/backup-and-staging "bas" "db_user" ext:php
+site:target inurl:wp-content/plugins/backup-and-staging/includes/class-bas-database.php "bas_key"
+site:target inurl:wp-content/plugins/backupguard "backupguard" "db_pass" ext:php
+site:target inurl:wp-content/plugins/backupguard/classes/class-bg-database.php "bg_key"
+site:target inurl:wp-content/plugins/wp-backup-plus "wp_backup_plus" "mysql_password" ext:php
+site:target inurl:wp-content/plugins/wp-backup-plus/includes/class-wpb-db.php "wpb_key"
+site:target inurl:wp-content/plugins/simple-backup "simple_backup" "db_pass" ext:php
+site:target inurl:wp-content/plugins/simple-backup/classes/class-sb-database.php "sb_key"
+site:target inurl:wp-content/plugins/ultimate-backup "ultimate_backup" "db_user" ext:php
+site:target inurl:wp-content/plugins/ultimate-backup/ub.php "ub_key"
+site:target inurl:wp-content/plugins/automated-backup "auto_backup" "db_password" ext:php
+site:target inurl:wp-content/plugins/automated-backup/autobackup.php "ab_key"
+site:target inurl:wp-content/plugins/backuply-pro "backuply_pro" "db_pass" ext:php
+site:target inurl:wp-content/plugins/backuply-pro/includes/class-backuply-pro-db.php "blp_key"
+site:target inurl:wp-content/plugins/wpvivid-backup-pro "wpvivid_pro" "db_password" ext:php
+site:target inurl:wp-content/plugins/wpvivid-backup-pro/includes/class-wpvivid-pro-db.php "wpvivid_key"
+site:target inurl:wp-content/plugins/duplicator-pro "dup_pro" "db_user" ext:php
+site:target inurl:wp-content/plugins/duplicator-pro/classes/class-database.php "dup_pro_key"
+site:target inurl:wp-content/plugins/updraftplus-premium "updraft_premium" "db_pass" ext:php
+site:target inurl:wp-content/plugins/updraftplus-premium/includes/class-updraft-premium-db.php "udp_key"
+site:target inurl:wp-content/plugins/backwpup-pro "backwpup_pro" "db_password" ext:php
+site:target inurl:wp-content/plugins/backwpup-pro/inc/class-backwpup-pro-db.php "bwp_key"
+site:target inurl:wp-content/plugins/backupbuddy-pro "backupbuddy_pro" "db_user" ext:php
+site:target inurl:wp-content/plugins/backupbuddy-pro/classes/class-db.php "bbuddy_key"
+site:target inurl:wp-content/plugins/aio-backup "aio_backup" "mysql_pass" ext:php
+site:target inurl:wp-content/plugins/aio-backup/includes/class-aio-db.php "aio_key"
+site:target inurl:wp-content/plugins/boldgrid-backup/cron/class-boldgrid-backup-cron.php "boldgrid_key"
+site:target inurl:wp-content/plugins/boldgrid-backup/includes/class-boldgrid-backup-db.php "boldgrid_db_pass"
+site:target inurl:wp-content/plugins/xcloner-backup-and-restore "xcloner_db" "password" ext:php
+site:target inurl:wp-content/plugins/xcloner-backup-and-restore/xcloner.php "xcloner_key"
   
