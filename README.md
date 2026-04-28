@@ -1,6 +1,6 @@
 # 🕵️‍♂️ WordPress Advanced Dorks Arsenal
 
-> **A curated collection of 2000+ high‑precision Google dorks for uncovering sensitive information in WordPress sites.**  
+> **A curated collection of 10000+ high‑precision Google dorks for uncovering sensitive information in WordPress sites.**  
 > *Designed for authorized security testing, CTF challenges, and hardening your own web assets.*
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
